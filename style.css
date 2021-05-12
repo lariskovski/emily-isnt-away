@@ -54,6 +54,24 @@ body {
     top: 0;
 }
 
+.users-container {
+    position: absolute;
+    background-color: violet;
+    height: 100%;
+    width: 20%;
+}
+
+.user{
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    float: left;
+    width: 80%;
+    height: 25%;
+    border:solid 1px;
+    border-color: black;
+    background-color: orange;
+}
 
 #secondary-color {
     background-color:#185de5;
