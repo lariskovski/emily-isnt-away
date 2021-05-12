@@ -3,6 +3,7 @@ body {
     height: 100%;
     /* background-color: aquamarine; */
     background-image: url("desktop.png");
+    font-family: Tahoma;
 }
 
 .main-window {
