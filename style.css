@@ -54,23 +54,44 @@ body {
     top: 0;
 }
 
-.users-container {
-    position: absolute;
+.containers {
+    /* position: absolute; */
     background-color: violet;
+    float: left;
     height: 100%;
+}
+
+#users{
     width: 20%;
+}
+
+#chats{
+    width: 80%;
+    background-color: greenyellow;
+}
+
+.user, .chat{
+    float: left;
+    border:solid 1px;
+    border-color: black;
+    background-color: orange;
 }
 
 .user{
     margin-top: 15px;
     margin-bottom: 50px;
     margin-left: 10px;
-    float: left;
-    width: 80%;
+    width: 85%;
     height: 25%;
-    border:solid 1px;
-    border-color: black;
-    background-color: orange;
+}
+
+.chat{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 95%;
+    /* height: 20%; */
 }
 
 #secondary-color {
