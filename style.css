@@ -7,6 +7,10 @@ body {
     font-size: 10px;
 }
 
+.button {
+    float: right;
+}
+
 .main-window {
     position: absolute;
     top:0;
