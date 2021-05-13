@@ -73,6 +73,13 @@ img{
     background-color: #edebd5;
 }
 
+#conversation p{
+    position: relative;
+    font-size: medium;
+    text-indent: 5px;
+    bottom: 0;
+}
+
 #container-20{
     width: 20%;
 }
