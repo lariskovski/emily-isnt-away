@@ -62,25 +62,30 @@ body {
 
 .containers {
     /* position: absolute; */
-    background-color: violet;
+    /* background-color: violet; */
     float: left;
     height: 100%;
+    background-color: #edebd5;
 }
 
-#users{
+#container-20{
     width: 20%;
 }
 
-#chats{
+#container-80{
     width: 80%;
-    background-color: greenyellow;
+}
+
+#divisor{
+    border: none;
+    background-color: #edebd5 ;
 }
 
 .user, .chat{
     float: left;
     border:solid 1px;
     border-color: black;
-    background-color: orange;
+    /* background-color: orange; */
 }
 
 .user{
@@ -98,12 +103,13 @@ body {
     margin-right: 10px;
     width: 95%;
     /* height: 20%; */
+    background-color: white;
 }
 
 #secondary-color {
     background-color:#185de5;
 }
 
-#primary-color {
+/* #primary-color {
     background-color: #e9ebdf;
-}
+} */
