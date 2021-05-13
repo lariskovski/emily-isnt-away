@@ -81,22 +81,19 @@ body {
     background-color: #edebd5 ;
 }
 
-.user, .chat{
-    float: left;
-    border:solid 1px;
-    border-color: black;
-    /* background-color: orange; */
-}
-
 .user{
+    float: left;
     margin-top: 15px;
     margin-bottom: 50px;
     margin-left: 10px;
     width: 85%;
     height: 25%;
+    border:solid 1px;
+    border-color: black;
 }
 
 .chat{
+    float: left;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 5px;
@@ -104,6 +101,9 @@ body {
     width: 95%;
     /* height: 20%; */
     background-color: white;
+    border-top: solid 4px;
+    border-left: solid 4px;
+    border-color: #9d9995;
 }
 
 #secondary-color {
