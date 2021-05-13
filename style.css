@@ -4,6 +4,7 @@ body {
     /* background-color: aquamarine; */
     background-image: url("desktop.png");
     font-family: Tahoma;
+    font-size: 10px;
 }
 
 .main-window {
@@ -13,8 +14,8 @@ body {
     left: 0;
     right: 0;
     margin: auto;
-    width: 500px;
-    height: 400px;
+    width: 640px;
+    height: 480px;
     border:solid 1px;
     border-color: #173f86;
     border-top-left-radius: 1%;
@@ -41,7 +42,6 @@ body {
     color: white;
     text-align: center;
     display: inline-block;
-    font-size: 10px;
 }
 
 .footer {
